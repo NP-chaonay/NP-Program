@@ -5,12 +5,13 @@ Licensed with "User-Customized License based on MIT License"
 ### START OF SECTION ###
 "User-Customized License based on MIT License"
 This license has its based license as MIT license.
-Every software contains in this repository is owned by Nuttapong Punpipat (NP-chaonay).
-Anyone including commercial usage can use, modify, OR re-distribute without notifing softwares' author.
-However, attribution to author AND license is required when softwares distribution on public is done.
-Works derived from these softwares must use the license that is compatible with this OR MIT license.
-Any system failures OR illegal actions from misusing these softwares by anyone that isn't author, aren't in the responsibility of author.
-Author doesn't guarantee the result AND performance from running these softwares.
+This software is owned by Nuttapong Punpipat (NP-chaonay).
+Anyone including commercial usage can use, modify, OR re-distribute without notifing software's author.
+However, attribution to author AND license is required when software distribution on public is done.
+Works derived from this software must use the license that is compatible with this OR MIT license.
+Any license that gives any permissions that isn't allowed in this license mustn't be used in software derived from this software.
+Any system failures OR illegal actions from misusing this software by anyone that isn't author, aren't in the responsibility of author.
+Author doesn't guarantee the result AND performance from running this software.
 Anyone who use, modify, OR re-distribute is assumed that he/she accepts in every line of this license.
 Text in the based license that doesn't conflict with the main license is appiled in lower priority.
 ### END OF SECTION ###
