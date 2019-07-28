@@ -1,20 +1,21 @@
 Copyright in 2019 by Nuttapong Punpipat (NP-chaonay), Some right reserved.
-Licensed with "User-Customized License based on MIT License"
+Licensed with own license
 
 [User-Customized License]
 ### START OF SECTION ###
-"User-Customized License based on MIT License"
+NP-chaonay's License
 
 This software is owned by Nuttapong Punpipat (NP-chaonay).
 
 This license is compatible with MIT license.
-This license has its based license as MIT license.
+The fallback license is MIT license.
 
-Anyone including commercial usage can use, modify, OR re-distribute without notifing software's author.
+Anyone including commercial usage is able to access, use, modify, OR re-distribute without notifing software's author.
 However, attribution to author AND license is required when software distribution on public is done.
 
 Works derived from this software must use the license that is compatible with this OR MIT license.
-Any license that gives any permissions that isn't allowed in this license mustn't be used in software derived from this software.
+Any license that doesn't give any permissions that isn't allowed in this license is considered as compatible to this license.
+Any license that gives any permissions that isn't allowed in this license is considered as non-compatible and mustn't be used in any software derived from this software.
 
 Any system failures OR illegal actions from misusing this software by anyone that isn't author, aren't in the responsibility of author.
 
