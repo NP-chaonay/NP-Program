@@ -15,7 +15,7 @@ while [ true ]; do
 	echo $TIME > /dev/shm/PassedTime
 	clear
 	echo "Passed Time : $H:$M:$S"
-	read -t 1
+	read -s -d '\' -t 1
 	TIME=$[ $TIME + 1 ]
 	H=$[ $TIME/3600 ]
 	M=$[ ($TIME - 3600*$H)/60 ]
