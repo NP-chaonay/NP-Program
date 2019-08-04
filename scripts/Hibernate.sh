@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-echo "Press "y" to confirm hibernation or else press Ctrl+C to cancel operation..."
+echo -n "Press "y" to confirm hibernation or else press Ctrl+C to cancel operation..."
 read -s -d 'y'
 echo
 #	echo "(1/4) Disable non-hibernation swaps..."
@@ -27,8 +27,10 @@ echo "(2/2) Hibernating..."
 systemctl hybrid-sleep
 #systemctl hibernate
 echo
-echo "After hibernated, press enter to continue resuming."
-read
+echo -n "After hibernated, press enter to continue resuming."
+read -s
+echo
+echo
 #	echo "(1/2) Re-enable USB auto-suspending on system disks devices..."
 #	echo auto > /sys/devices/power/power/control
 #	echo auto > /sys/devices/pci0000:00/power/control
