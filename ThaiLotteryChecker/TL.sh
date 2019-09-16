@@ -1,25 +1,24 @@
+#!/bin/bash
 main() {
 	echo "Type your lottery numbers... (Multiple numbers are supported by space-sparated.)"
 	read NUMBER
 	echo
 
-	echo "### 3_Front-Rear Digit Checking :"
+	echo "Won numbers for matching with 3-digits front-rear or 2-digits rear:"
 	for x in $NUMBER
 	do
-		A=`echo $x | head -c 3`
-		B=`echo $x | tail -c 4`
-		cat $SOURCE | head -n 2 | tail -n 1 | tail -c +4 | grep -o $A
-		cat $SOURCE | head -n 3 | tail -n 1 | tail -c +4 | grep -o $B
+			y=`echo $x | tail -c 3`
+			cat $SOURCE | head -n 4 | tail -n 1 | tail -c +4 | grep -oq $y
+			if [ $? = 0 ]; then echo "$x "; continue; fi
+			y=`echo $x | head -c 3`
+			cat $SOURCE | head -n 2 | tail -n 1 | tail -c +4 | grep -oq $y
+			if [ $? = 0 ]; then echo "$x "; continue; fi
+			y=`echo $x | tail -c 4`
+			cat $SOURCE | head -n 3 | tail -n 1 | tail -c +4 | grep -oq $y
+			if [ $? = 0 ]; then echo "$x "; fi
 	done
 
-	echo "### 2_Rear Digit Checking :"
-	for x in $NUMBER
-	do
-		C=`echo $x | tail -c 3`
-		cat $SOURCE | head -n 4 | tail -n 1 | tail -c +4 | grep -o $C
-	done
-
-	echo "### Whole Number Checking :"
+	echo "Won Whole Numbers :"
 	for x in $NUMBER
 	do
 		cat $SOURCE | tail -n +6 | grep -o $x
