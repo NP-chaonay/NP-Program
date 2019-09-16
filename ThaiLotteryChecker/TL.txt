@@ -1,4 +1,4 @@
-[SpecialCondition]
+[Conditions]
 3F=
 3B=
 2B=
