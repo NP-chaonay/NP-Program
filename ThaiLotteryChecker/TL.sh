@@ -9,13 +9,13 @@ main() {
 	do
 			y=`echo $x | tail -c 3`
 			cat $SOURCE | head -n 4 | tail -n 1 | tail -c +4 | grep -oq $y
-			if [ $? = 0 ]; then echo "$x (3-digits front-rear) "; continue; fi
+			if [ $? = 0 ]; then echo "$x (2-digits rear) "; continue; fi
 			y=`echo $x | head -c 3`
 			cat $SOURCE | head -n 2 | tail -n 1 | tail -c +4 | grep -oq $y
 			if [ $? = 0 ]; then echo "$x (3-digits front-rear) "; continue; fi
 			y=`echo $x | tail -c 4`
 			cat $SOURCE | head -n 3 | tail -n 1 | tail -c +4 | grep -oq $y
-			if [ $? = 0 ]; then echo "$x (2-digits rear) "; fi
+			if [ $? = 0 ]; then echo "$x (3-digits front-rear) "; fi
 	done
 
 	echo "Won Whole Numbers :"
