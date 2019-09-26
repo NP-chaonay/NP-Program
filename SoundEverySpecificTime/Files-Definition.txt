@@ -15,7 +15,7 @@
 	Main script for running on Linux operating system.
 	Requirements (First-time installation of most Linux system should be already archived them.) :
 		- Regular Linux sound system installed (ALSA, Pulseaudio)
-		- aplay, paplay, pasuspender binaries
+		- pasuspender, mplayer
 		- Basic Linux utilites with bash
 ./SoundEverySpecificTime_TermuxOnAndroid.sh
 	Main script for running on Android operating system using Termux.
@@ -29,7 +29,7 @@
 	Requirements :
 		- WSL
 		- WSL Distribution (Tested on Ubuntu dist.)
-		- fmedia
+		- mplayer
 
 (DIR) ./Documents/
 	Directory contains scripts documentations.
