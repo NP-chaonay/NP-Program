@@ -10,9 +10,9 @@
 + Author : NP-chaonay (Nuttapong Punpipat)
 + License :
 	Author's license with MIT License as fallback license. (See *-License in /Documents/)
-+ Created Date :
-+ Updated Date :
-+ Estimated Size : 
++ Created Date : September 2019
++ Updated Date : September 2019
++ Estimated Size : 12-13 MB
 
 [Software]
 + Supported Operating System :
