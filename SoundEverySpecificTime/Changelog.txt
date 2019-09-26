@@ -6,9 +6,7 @@
 #	Alpha : Haven't pass testing process. Please beaware of any bugs occur in any situations.
 ######
 
-+ V.1.0-stable
-+ V.0.5-beta
-+ Before versioning (Alpha stage)
++ V.0.1-alpha
 	- Implementation for alert any time changes that match specific conditions.
 	- Support on Android using Termux with play-audio package manually installed.
 	- Support on Windows using WSL (cygwin supporting haven't tested yet.).
