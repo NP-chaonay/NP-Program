@@ -1,5 +1,7 @@
 (DIR) ./
 	Main directory of software files.
+./Metadata.txt
+	Information of this package of software.
 ./Changelog.txt
 	Changes in each script versions.
 ./Files Definition.txt
