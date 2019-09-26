@@ -35,6 +35,3 @@
 	Main license notice
 ./Documents/Fallback License.txt
 	Fallback license notice (MIT License)
-
-(DIR) ./SoundUsed/
-	Sound files for playing when arrived time meets some conditions.
