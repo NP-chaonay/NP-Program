@@ -1,9 +1,9 @@
 [SoundEverySpecificTime.sh Changelog]
 
 ### Notes: ###
-#	Stable : Passed intensive testing. Confirmed to use without problem according to developer's list.
-#	Beta : Passed some parts of testing. In most situations, it shouldn't occur a problem.
-#	Alpha : Haven't pass testing process. Please beaware of any bugs occur in any situations.
+#	Stable : Passed complete testing. Confirmed to use without problem according to developer's list.
+#	Beta : Passed minimum testing. In most situations, it shouldn't occur a problem.
+#	Alpha : Have not passed minimum process. Please beaware of any bugs occur in any situations.
 ######
 
 + V.0.1-alpha
