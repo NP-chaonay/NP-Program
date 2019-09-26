@@ -1,0 +1,18 @@
+[SoundEverySpecificTime.sh Changelog]
+
+### Notes: ###
+#	Stable : Passed intensive testing. Confirmed to use without problem according to developer's list.
+#	Beta : Passed some parts of testing. In most situations, it shouldn't occur a problem.
+#	Alpha : Haven't pass testing process. Please beaware of any bugs occur in any situations.
+######
+
++ V.1.0-stable
++ V.0.5-beta
++ Before versioning (Alpha stage)
+	- Implementation for alert any time changes that match specific conditions.
+	- Support on Android using Termux with play-audio package manually installed.
+	- Support on Windows using WSL (cygwin supporting haven't tested yet.).
+	- Using after hibernation or suspending is well supported.
+	- Audio ducking or muting is supported on Linux.
+	- Verbose and debugging mode is implemented.
+	- Script documentation in both script-editing and separated-documents.

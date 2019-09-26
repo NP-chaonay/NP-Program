@@ -1,0 +1,3 @@
+[License]
+Copyright in 2019/09/22 by Nuttapong Punpipat (NP-chaonay), Some right reserved.
+Licensed with own license. See "./Documents/Main License.txt" and "./Documents/Fallback License.txt"
