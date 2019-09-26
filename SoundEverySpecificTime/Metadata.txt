@@ -15,5 +15,6 @@
 + Estimated Size : 12-13 MB
 
 [Software]
++ Version : V.0.1-alpha
 + Supported Operating System :
 	Linux, Android with Termux, Windows with WSL
