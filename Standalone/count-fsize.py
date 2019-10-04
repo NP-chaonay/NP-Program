@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 import os,sys
+if sys.version_info[0]<3:
+	print('Due to unimplemented features in currently-used Python. This Python script requires Python in version at least major 3.')
+	exit(1)
 size_sum=0
 dir=os.path.join(sys.argv[1], '')
 if os.getenv('AddSizeOnDisk')!=None:
