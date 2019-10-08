@@ -1,2 +1,2 @@
-# sh-collection
-Collection of shell scripts created by NP-chaonay
+# NP-Program
+Collection of programs written by NP-chaonay
