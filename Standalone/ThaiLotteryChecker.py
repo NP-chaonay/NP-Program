@@ -4,6 +4,7 @@
 # Author : Nuttapong Punpipat (NP-chaonay)
 # License : MIT License
 # Language : Thai
+# Version / Last Programmed : V.1.0 12/03/20 16:30 (UTC)
 
 import http.client,sys
 try:
