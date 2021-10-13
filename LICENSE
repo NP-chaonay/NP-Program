@@ -1,31 +1,16 @@
-Copyright in 2019 by Nuttapong Punpipat (NP-chaonay), Some right reserved.
-Licensed with own license
+- Creators/Founders: NP-chaonay@Github (Full name: Nuttapong Punpipat; E-mail: nuttapongpunpipat@gmail.com)
+- Copyright Holders: NP-chaonay@Github (Full name: Nuttapong Punpipat; E-mail: nuttapongpunpipat@gmail.com)
+- Authors: NP-chaonay@Github (Full name: Nuttapong Punpipat; E-mail: nuttapongpunpipat@gmail.com)
 
-### START OF LICENSE NOTICE ###
-NP-chaonay's LICENSE
+- Contributors:
+	+ < All authors >
 
-THIS SOFTWARE IS OWNED BY NUTTAPONG PUNPIPAT (NP-chaonay).
-
-THE FALLBACK OF THIS LICENSE IS "MIT LICENSE".
-
-ANYONE INCLUDING COMMERCIAL USAGE IS ABLE TO ACCESS, USE, MODIFY, OR RE-DISTRIBUTE WITHOUT NOTIFING SOFTWARE'S AUTHOR.
-HOWEVER, ATTRIBUTION TO AUTHOR AND LICENSE IS REQUIRED WHEN SOFTWARE RE-DISTRIBUTION ON PUBLIC IS DONE.
-
-WORKS DERIVED FROM THIS SOFTWARE MUST USE THE LICENSE THAT IS COMPATIBLE WITH THIS OR THE FALLBACK LICENSE.
-ANY LICENSE THAT DOESN'T GIVE ANY PERMISSIONS THAT ISN'T ALLOWED IN THIS LICENSE IS CONSIDERED AS COMPATIBLE TO THIS LICENSE.
-ANY LICENSE THAT GIVES ANY PERMISSIONS THAT ISN'T ALLOWED IN THIS LICENSE IS CONSIDERED AS NON-COMPATIBLE AND MUSTN'T BE USED IN ANY SOFTWARE DERIVED FROM THIS SOFTWARE.
-
-ANY SYSTEM FAILURES OR ILLEGAL ACTIONS FROM MISUSING THIS SOFTWARE BY ANYONE THAT ISN'T AUTHOR, AREN'T IN THE RESPONSIBILITY OF AUTHOR.
-
-AUTHOR DOESN'T GUARANTEE THE RESULT AND PERFORMANCE FROM RUNNING THIS SOFTWARE.
-ANYONE WHO USE, MODIFY, OR RE-DISTRIBUTE IS ASSUMED THAT HE/SHE ACCEPTS IN EVERY LINE OF THIS LICENSE.
-### END OF LICENSE NOTICE ###
-
-[Fallback License]
-### START OF SECTION ###
+- Main license used in this software/Python-package/repository is "MIT License"
+	For the main license's declaration, see below. :
+                        ######## START OF LINE ########
 MIT License
 
-Copyright (c) 2019 Nuttapong Punpipat
+Copyright (c) 2021 Nuttapong Punpipat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -44,4 +29,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-### END OF SECTION ###
+                        ######## END OF LINE ########
+
+[License Changing History]
+REMARK: the license change doesn't apply to prior commit from commit which the license is changed
+REMARK: noted using github-repository commit id
+(<Current>):
+	- Improved credit informations
+	- Additional improvement, many statements changed but maybe no significant effects on the repository.
+(from 244f9b630e7967e28e039ecd15317eefcaee7439 to 98cdee432516f5b3ef48127fcac6a6f11e575144): User-defined licensed, for more information, see on the file commit history. The license has much relation / many mentions to MIT license.
+(6540adcbb2262c3d48315d623c04438bc20ba2f6): Initial commit, using MIT license
